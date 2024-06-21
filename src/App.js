@@ -79,7 +79,7 @@ function TodoListItems({ value, idx, todolist, setTodolist }) {
   }
   return (
 
-    <div className='container-fluid'>
+    <div className='container-fluid li-cont'>
       <li className={(check) ? 'checked-li' : 'todo-li'} onClick={checkstatus}>  &nbsp;{idx + 1}. {value} </li>
       <span className='todo-span' onClick={deleteTodo}>&times;</span>
 
