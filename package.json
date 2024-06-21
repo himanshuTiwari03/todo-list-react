@@ -1,5 +1,8 @@
 {
+<<<<<<< HEAD
   "homepage" : "https://himanshuTiwari03.github.io/todo-list-react",
+=======
+>>>>>>> origin/main
   "name": "todolist",
   "version": "0.1.0",
   "private": true,
@@ -18,8 +21,11 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+<<<<<<< HEAD
     "predeploy" : "npm run build",
     "deploy" : "gh-pages -d build",
+=======
+>>>>>>> origin/main
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },

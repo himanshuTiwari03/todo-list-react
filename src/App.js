@@ -78,9 +78,16 @@ function TodoListItems({ value, idx, todolist, setTodolist }) {
     }
   }
   return (
+<<<<<<< HEAD
     <div className='container-fluid'>
       <li className={(check) ? 'checked-li' : 'todo-li'} onClick={checkstatus}>  &nbsp;{idx + 1}. {value} </li>
       <span className='todo-span' onClick={deleteTodo}>&times;</span>
     </div>
+=======
+    <>
+      <li className={(check) ? 'checked-li' : 'todo-li'} onClick={checkstatus}>  &nbsp;{idx + 1}. {value} </li>
+      <span className='todo-span' onClick={deleteTodo}>&times;</span>
+    </>
+>>>>>>> origin/main
   )
 }
