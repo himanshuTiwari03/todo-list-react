@@ -74,7 +74,7 @@ function TodoListItems({ value, idx, todolist, setTodolist }) {
   let checkstatus = () => {
     setCheck(!check);
     if (check == false) {
-      toast.success("Todo " + (idx + 1) + " Completed");
+      toast.info("Todo " + (idx + 1) + " Completed");
     }
   }
   return (
